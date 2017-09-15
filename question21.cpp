@@ -12,7 +12,7 @@ int main() {
     else if(unit<=250)
         amt=100+((unit-150)*1.2);
     else
-        amt=220+((unit-2500)*1.5);
+        amt=220+((unit-250)*1.5);
     surch=amt*0.2;
     tot=amt+surch;
     cout<<"electricity bill is "<<tot;
